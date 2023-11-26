@@ -1,0 +1,1550 @@
+[
+    {
+        "name": "Bulbasaur",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "pokedex_number": 1,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Ivysaur",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "pokedex_number": 2,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "speed": 60
+        }
+    },
+    {
+        "name": "Venusaur",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "pokedex_number": 3,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Charmander",
+        "types": [
+            "fire"
+        ],
+        "pokedex_number": 4,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Charmeleon",
+        "types": [
+            "fire"
+        ],
+        "pokedex_number": 5,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Charizard",
+        "types": [
+            "fire",
+            "flying"
+        ],
+        "pokedex_number": 6,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "speed": 100
+        }
+    },
+    {
+        "name": "Squirtle",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 7,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "speed": 43
+        }
+    },
+    {
+        "name": "Wartortle",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 8,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "speed": 58
+        }
+    },
+    {
+        "name": "Blastoise",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 9,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "speed": 78
+        }
+    },
+    {
+        "name": "Caterpie",
+        "types": [
+            "bug"
+        ],
+        "pokedex_number": 10,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 45,
+            "attack": 30,
+            "defense": 35,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Metapod",
+        "types": [
+            "bug"
+        ],
+        "pokedex_number": 11,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 50,
+            "attack": 20,
+            "defense": 55,
+            "speed": 30
+        }
+    },
+    {
+        "name": "Butterfree",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "pokedex_number": 12,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 60,
+            "attack": 45,
+            "defense": 50,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Weedle",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "pokedex_number": 13,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "speed": 50
+        }
+    },
+    {
+        "name": "Kakuna",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "pokedex_number": 14,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 45,
+            "attack": 25,
+            "defense": 50,
+            "speed": 35
+        }
+    },
+    {
+        "name": "Beedrill",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "pokedex_number": 15,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 40,
+            "speed": 75
+        }
+    },
+    {
+        "name": "Pidgey",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "pokedex_number": 16,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "speed": 56
+        }
+    },
+    {
+        "name": "Pidgeotto",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "pokedex_number": 17,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "speed": 71
+        }
+    },
+    {
+        "name": "Pidgeot",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "pokedex_number": 18,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 83,
+            "attack": 80,
+            "defense": 75,
+            "speed": 101
+        }
+    },
+    {
+        "name": "Rattata",
+        "types": [
+            "normal"
+        ],
+        "pokedex_number": 19,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "speed": 72
+        }
+    },
+    {
+        "name": "Raticate",
+        "types": [
+            "normal"
+        ],
+        "pokedex_number": 20,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 55,
+            "attack": 81,
+            "defense": 60,
+            "speed": 97
+        }
+    },
+    {
+        "name": "Spearow",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "pokedex_number": 21,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 60,
+            "defense": 30,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Fearow",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "pokedex_number": 22,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 65,
+            "speed": 100
+        }
+    },
+    {
+        "name": "Ekans",
+        "types": [
+            "poison"
+        ],
+        "pokedex_number": 23,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 35,
+            "attack": 60,
+            "defense": 44,
+            "speed": 55
+        }
+    },
+    {
+        "name": "Arbok",
+        "types": [
+            "poison"
+        ],
+        "pokedex_number": 24,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 69,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Pikachu",
+        "types": [
+            "electric"
+        ],
+        "pokedex_number": 25,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Raichu",
+        "types": [
+            "electric"
+        ],
+        "pokedex_number": 26,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "speed": 110
+        }
+    },
+    {
+        "name": "Sandshrew",
+        "types": [
+            "ground"
+        ],
+        "pokedex_number": 27,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 85,
+            "speed": 40
+        }
+    },
+    {
+        "name": "Sandslash",
+        "types": [
+            "ground"
+        ],
+        "pokedex_number": 28,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 75,
+            "attack": 100,
+            "defense": 110,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Nidoran-f",
+        "types": [
+            "poison"
+        ],
+        "pokedex_number": 29,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 55,
+            "attack": 47,
+            "defense": 52,
+            "speed": 41
+        }
+    },
+    {
+        "name": "Nidorina",
+        "types": [
+            "poison"
+        ],
+        "pokedex_number": 30,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 70,
+            "attack": 62,
+            "defense": 67,
+            "speed": 56
+        }
+    },
+    {
+        "name": "Nidoqueen",
+        "types": [
+            "poison",
+            "ground"
+        ],
+        "pokedex_number": 31,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 90,
+            "attack": 92,
+            "defense": 87,
+            "speed": 76
+        }
+    },
+    {
+        "name": "Nidoran-m",
+        "types": [
+            "poison"
+        ],
+        "pokedex_number": 32,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 46,
+            "attack": 57,
+            "defense": 40,
+            "speed": 50
+        }
+    },
+    {
+        "name": "Nidorino",
+        "types": [
+            "poison"
+        ],
+        "pokedex_number": 33,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 61,
+            "attack": 72,
+            "defense": 57,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Nidoking",
+        "types": [
+            "poison",
+            "ground"
+        ],
+        "pokedex_number": 34,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 81,
+            "attack": 102,
+            "defense": 77,
+            "speed": 85
+        }
+    },
+    {
+        "name": "Clefairy",
+        "types": [
+            "fairy"
+        ],
+        "pokedex_number": 35,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 70,
+            "attack": 45,
+            "defense": 48,
+            "speed": 35
+        }
+    },
+    {
+        "name": "Clefable",
+        "types": [
+            "fairy"
+        ],
+        "pokedex_number": 36,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 95,
+            "attack": 70,
+            "defense": 73,
+            "speed": 60
+        }
+    },
+    {
+        "name": "Vulpix",
+        "types": [
+            "fire"
+        ],
+        "pokedex_number": 37,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Ninetales",
+        "types": [
+            "fire"
+        ],
+        "pokedex_number": 38,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 73,
+            "attack": 76,
+            "defense": 75,
+            "speed": 100
+        }
+    },
+    {
+        "name": "Jigglypuff",
+        "types": [
+            "normal",
+            "fairy"
+        ],
+        "pokedex_number": 39,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "speed": 20
+        }
+    },
+    {
+        "name": "Wigglytuff",
+        "types": [
+            "normal",
+            "fairy"
+        ],
+        "pokedex_number": 40,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 140,
+            "attack": 70,
+            "defense": 45,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Zubat",
+        "types": [
+            "poison",
+            "flying"
+        ],
+        "pokedex_number": 41,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "speed": 55
+        }
+    },
+    {
+        "name": "Golbat",
+        "types": [
+            "poison",
+            "flying"
+        ],
+        "pokedex_number": 42,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 70,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Oddish",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "pokedex_number": 43,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 55,
+            "speed": 30
+        }
+    },
+    {
+        "name": "Gloom",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "pokedex_number": 44,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 70,
+            "speed": 40
+        }
+    },
+    {
+        "name": "Vileplume",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "pokedex_number": 45,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 85,
+            "speed": 50
+        }
+    },
+    {
+        "name": "Paras",
+        "types": [
+            "bug",
+            "grass"
+        ],
+        "pokedex_number": 46,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 35,
+            "attack": 70,
+            "defense": 55,
+            "speed": 25
+        }
+    },
+    {
+        "name": "Parasect",
+        "types": [
+            "bug",
+            "grass"
+        ],
+        "pokedex_number": 47,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 80,
+            "speed": 30
+        }
+    },
+    {
+        "name": "Venonat",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "pokedex_number": 48,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 60,
+            "attack": 55,
+            "defense": 50,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Venomoth",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "pokedex_number": 49,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 70,
+            "attack": 65,
+            "defense": 60,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Diglett",
+        "types": [
+            "ground"
+        ],
+        "pokedex_number": 50,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 10,
+            "attack": 55,
+            "defense": 25,
+            "speed": 95
+        }
+    },
+    {
+        "name": "Dugtrio",
+        "types": [
+            "ground"
+        ],
+        "pokedex_number": 51,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 35,
+            "attack": 100,
+            "defense": 50,
+            "speed": 120
+        }
+    },
+    {
+        "name": "Meowth",
+        "types": [
+            "normal"
+        ],
+        "pokedex_number": 52,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Persian",
+        "types": [
+            "normal"
+        ],
+        "pokedex_number": 53,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 65,
+            "attack": 70,
+            "defense": 60,
+            "speed": 115
+        }
+    },
+    {
+        "name": "Psyduck",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 54,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 50,
+            "attack": 52,
+            "defense": 48,
+            "speed": 55
+        }
+    },
+    {
+        "name": "Golduck",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 55,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 78,
+            "speed": 85
+        }
+    },
+    {
+        "name": "Mankey",
+        "types": [
+            "fighting"
+        ],
+        "pokedex_number": 56,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 80,
+            "defense": 35,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Primeape",
+        "types": [
+            "fighting"
+        ],
+        "pokedex_number": 57,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 65,
+            "attack": 105,
+            "defense": 60,
+            "speed": 95
+        }
+    },
+    {
+        "name": "Growlithe",
+        "types": [
+            "fire"
+        ],
+        "pokedex_number": 58,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 55,
+            "attack": 70,
+            "defense": 45,
+            "speed": 60
+        }
+    },
+    {
+        "name": "Arcanine",
+        "types": [
+            "fire"
+        ],
+        "pokedex_number": 59,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 90,
+            "attack": 110,
+            "defense": 80,
+            "speed": 95
+        }
+    },
+    {
+        "name": "Poliwag",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 60,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 50,
+            "defense": 40,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Poliwhirl",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 61,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 65,
+            "attack": 65,
+            "defense": 65,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Poliwrath",
+        "types": [
+            "water",
+            "fighting"
+        ],
+        "pokedex_number": 62,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 90,
+            "attack": 95,
+            "defense": 95,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Abra",
+        "types": [
+            "psychic"
+        ],
+        "pokedex_number": 63,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 25,
+            "attack": 20,
+            "defense": 15,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Kadabra",
+        "types": [
+            "psychic"
+        ],
+        "pokedex_number": 64,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "speed": 105
+        }
+    },
+    {
+        "name": "Alakazam",
+        "types": [
+            "psychic"
+        ],
+        "pokedex_number": 65,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 55,
+            "attack": 50,
+            "defense": 45,
+            "speed": 120
+        }
+    },
+    {
+        "name": "Machop",
+        "types": [
+            "fighting"
+        ],
+        "pokedex_number": 66,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 70,
+            "attack": 80,
+            "defense": 50,
+            "speed": 35
+        }
+    },
+    {
+        "name": "Machoke",
+        "types": [
+            "fighting"
+        ],
+        "pokedex_number": 67,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Machamp",
+        "types": [
+            "fighting"
+        ],
+        "pokedex_number": 68,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 90,
+            "attack": 130,
+            "defense": 80,
+            "speed": 55
+        }
+    },
+    {
+        "name": "Bellsprout",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "pokedex_number": 69,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 35,
+            "speed": 40
+        }
+    },
+    {
+        "name": "Weepinbell",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "pokedex_number": 70,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 50,
+            "speed": 55
+        }
+    },
+    {
+        "name": "Victreebel",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "pokedex_number": 71,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Tentacool",
+        "types": [
+            "water",
+            "poison"
+        ],
+        "pokedex_number": 72,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 40,
+            "defense": 35,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Tentacruel",
+        "types": [
+            "water",
+            "poison"
+        ],
+        "pokedex_number": 73,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 80,
+            "attack": 70,
+            "defense": 65,
+            "speed": 100
+        }
+    },
+    {
+        "name": "Geodude",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "pokedex_number": 74,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 80,
+            "defense": 100,
+            "speed": 20
+        }
+    },
+    {
+        "name": "Graveler",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "pokedex_number": 75,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 55,
+            "attack": 95,
+            "defense": 115,
+            "speed": 35
+        }
+    },
+    {
+        "name": "Golem",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "pokedex_number": 76,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 80,
+            "attack": 120,
+            "defense": 130,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Ponyta",
+        "types": [
+            "fire"
+        ],
+        "pokedex_number": 77,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 50,
+            "attack": 85,
+            "defense": 55,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Rapidash",
+        "types": [
+            "fire"
+        ],
+        "pokedex_number": 78,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 65,
+            "attack": 100,
+            "defense": 70,
+            "speed": 105
+        }
+    },
+    {
+        "name": "Slowpoke",
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "pokedex_number": 79,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 90,
+            "attack": 65,
+            "defense": 65,
+            "speed": 15
+        }
+    },
+    {
+        "name": "Slowbro",
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "pokedex_number": 80,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 95,
+            "attack": 75,
+            "defense": 110,
+            "speed": 30
+        }
+    },
+    {
+        "name": "Magnemite",
+        "types": [
+            "electric",
+            "steel"
+        ],
+        "pokedex_number": 81,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 25,
+            "attack": 35,
+            "defense": 70,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Magneton",
+        "types": [
+            "electric",
+            "steel"
+        ],
+        "pokedex_number": 82,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 50,
+            "attack": 60,
+            "defense": 95,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Farfetchd",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "pokedex_number": 83,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 52,
+            "attack": 90,
+            "defense": 55,
+            "speed": 60
+        }
+    },
+    {
+        "name": "Doduo",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "pokedex_number": 84,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 35,
+            "attack": 85,
+            "defense": 45,
+            "speed": 75
+        }
+    },
+    {
+        "name": "Dodrio",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "pokedex_number": 85,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 60,
+            "attack": 110,
+            "defense": 70,
+            "speed": 110
+        }
+    },
+    {
+        "name": "Seel",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 86,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 65,
+            "attack": 45,
+            "defense": 55,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Dewgong",
+        "types": [
+            "water",
+            "ice"
+        ],
+        "pokedex_number": 87,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 90,
+            "attack": 70,
+            "defense": 80,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Grimer",
+        "types": [
+            "poison"
+        ],
+        "pokedex_number": 88,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 80,
+            "attack": 80,
+            "defense": 50,
+            "speed": 25
+        }
+    },
+    {
+        "name": "Muk",
+        "types": [
+            "poison"
+        ],
+        "pokedex_number": 89,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 105,
+            "attack": 105,
+            "defense": 75,
+            "speed": 50
+        }
+    },
+    {
+        "name": "Shellder",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 90,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 30,
+            "attack": 65,
+            "defense": 100,
+            "speed": 40
+        }
+    },
+    {
+        "name": "Cloyster",
+        "types": [
+            "water",
+            "ice"
+        ],
+        "pokedex_number": 91,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 50,
+            "attack": 95,
+            "defense": 180,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Gastly",
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "pokedex_number": 92,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 30,
+            "attack": 35,
+            "defense": 30,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Haunter",
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "pokedex_number": 93,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 45,
+            "speed": 95
+        }
+    },
+    {
+        "name": "Gengar",
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "pokedex_number": 94,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 60,
+            "speed": 110
+        }
+    },
+    {
+        "name": "Onix",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "pokedex_number": 95,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 35,
+            "attack": 45,
+            "defense": 160,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Drowzee",
+        "types": [
+            "psychic"
+        ],
+        "pokedex_number": 96,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 60,
+            "attack": 48,
+            "defense": 45,
+            "speed": 42
+        }
+    },
+    {
+        "name": "Hypno",
+        "types": [
+            "psychic"
+        ],
+        "pokedex_number": 97,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 85,
+            "attack": 73,
+            "defense": 70,
+            "speed": 67
+        }
+    },
+    {
+        "name": "Krabby",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 98,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 30,
+            "attack": 105,
+            "defense": 90,
+            "speed": 50
+        }
+    },
+    {
+        "name": "Kingler",
+        "types": [
+            "water"
+        ],
+        "pokedex_number": 99,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 55,
+            "attack": 130,
+            "defense": 115,
+            "speed": 75
+        }
+    },
+    {
+        "name": "Voltorb",
+        "types": [
+            "electric"
+        ],
+        "pokedex_number": 100,
+        "abilities": [],
+        "moves": [],
+        "stats": {
+            "hp": 40,
+            "attack": 30,
+            "defense": 50,
+            "speed": 100
+        }
+    }
+]
