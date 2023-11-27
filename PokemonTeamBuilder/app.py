@@ -370,12 +370,6 @@ def login():
             return message_response('Bad Username' , 401)
     return message_response('Authentication Required' , 401)
 
-
-
-
-
-
-
 @app.route('/api/v1.0.logout', methods=['GET'])
 @jwt_required
 def logout():
@@ -427,10 +421,11 @@ def get_all_users():
 @app.route('/api/v1.0/users', methods=['POST'])
 def create_user():
     if 'username' in request.form and 'email' in request.form and 'password' in request.form:
+        hashed_password = bcrypt.hashpw(request.form['password'].encode('utf-8'), bcrypt.gensalt())
         user_data = {
             'username': request.form['username'],
             'email': request.form['email'],
-            'password': request.form['password'],
+            'password': hashed_password,
             'registration_date': str(datetime.date.today),
             'is_staff' : False 
         }
@@ -579,6 +574,6 @@ def delete_user_team(user_id, team_id):
 #endregion Flask Routes
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='localhost', port=5000)
 
 
