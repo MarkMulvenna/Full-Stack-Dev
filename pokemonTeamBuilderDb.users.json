@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "655840177f57a4f1b29b6150"
+  },
+  "username": "test_user123",
+  "email": "test_user123@example.com",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEyJC43TURldndDODNhSGt6aEVQTGlEeC5nMnFuejdaa2IxZFlwM1BTTUJjOEdVSmtHdUdrSllp",
+      "subType": "00"
+    }
+  },
+  "full_name": "Test User",
+  "birth_date": "1990-05-15",
+  "registration_date": "2023-11-15",
+  "is_staff": "True"
+},
+{
+  "_id": {
+    "$oid": "6558e3ae24446841b7073586"
+  },
+  "username": "test_user123",
+  "email": "test_user123@example.com",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEyJDVlWExGdXZ4V1l3Nlc0T1dTVFlSQk9rOXhFMHVZNjhPd2N6NkRmdUpMVFoxLlV4RUlqamg2",
+      "subType": "00"
+    }
+  },
+  "full_name": "Test User",
+  "birth_date": "1990-05-15",
+  "registration_date": "2023-11-15"
+},
+{
+  "_id": {
+    "$oid": "6558e42d3c40b14d82c026e8"
+  },
+  "username": "test_user123",
+  "email": "test_user123@example.com",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEyJDFHSENYSThPWG0yZWEwMEJ2U1FZTGVnQ2NnRXp6WjUvLk52eEFpaVFXZko5SzlmMDhtLjhP",
+      "subType": "00"
+    }
+  },
+  "full_name": "Test User",
+  "birth_date": "1990-05-15",
+  "registration_date": "2023-11-15",
+  "is_staff": false
+},
+{
+  "_id": {
+    "$oid": "655fba227a948215b9004efa"
+  },
+  "username": "test_user123",
+  "email": "test_user123@example.com",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEyJEg5VUhoZ3NxdmplZ000eGoycWFTTGVCcUU0UVdXZjhPYjZiQ2dHN2lLM0txRHl6TXdmQ1Ey",
+      "subType": "00"
+    }
+  },
+  "registration_date": "<built-in method today of type object at 0x00007FFD89DB4990>",
+  "is_staff": false
+},
+{
+  "_id": {
+    "$oid": "656272e2919ecff70f75fc3e"
+  },
+  "username": "test_user123",
+  "email": "test_user123@example.com",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEyJC5MY2M5MGljZ3lMN29xUVgycGZqWE9DMDl4OXNvemwyL1dQN1RZYjdyVXh2SW9EMGhjUWEu",
+      "subType": "00"
+    }
+  },
+  "registration_date": "<built-in method today of type object at 0x00007FFB05EE4990>",
+  "is_staff": false
+}]

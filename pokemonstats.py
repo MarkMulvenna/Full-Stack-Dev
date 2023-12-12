@@ -5,25 +5,28 @@ import json
 
 def fetch_pokemon_data():
     pokemon_data = []
-    for i in range(1, 101):
+    for i in range(1, 103):
         url = f"https://pokeapi.co/api/v2/pokemon/{i}"
         response = requests.get(url)
         if response.status_code == 200:
             pokemon = response.json()
-            data = {
-                "name": pokemon['name'],
-                "types": [t['type']['name'] for t in pokemon['types']],
-                "pokedex_number": pokemon['id'],
-                "abilities": [],
-                "moves": [],
-                "stats": {
+            stats = [
+                {
+                    "name": "Base Stat",
                     "hp": next(stat['base_stat'] for stat in pokemon['stats'] if stat['stat']['name'] == 'hp'),
                     "attack": next(stat['base_stat'] for stat in pokemon['stats'] if stat['stat']['name'] == 'attack'),
                     "defense": next(stat['base_stat'] for stat in pokemon['stats'] if stat['stat']['name'] == 'defense'),
                     "speed": next(stat['base_stat'] for stat in pokemon['stats'] if stat['stat']['name'] == 'speed')
                 }
+            ]
+            data = {
+                "name": pokemon['name'],
+                "types": [t['type']['name'] for t in pokemon['types']],
+                "pokedex_number": pokemon['id'],
+                "stats": stats
             }
             pokemon_data.append(data)
+            print(str(pokemon['name']).capitalize() + "'s information retrieved")
         else:
             print(f"Failed to fetch data for Pokémon {i}")
 

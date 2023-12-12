@@ -36,15 +36,24 @@ def message_response(message, status_code):
 def admin_required(func):
     @wraps(func)
     def admin_required_wrapper(*args, **kwargs):
-        token = request.headers.get('x-access-token')
-        print(token)
-        data = jwt.decode( token, app.config['SECRET_KEY'] , algorithms=['HS256'])
-        print(data)
-        if data['admin']:
-            return func(*args, **kwargs)
-        else:
-            return error_response('Admin acesss is required.' , 401)
-    
+        token = request.headers.get('Authorization')  # Use 'Authorization' header
+        if not token:
+            return error_response('Token is missing', 401)
+
+        try:
+            decoded_token = jwt.decode(token.split()[-1], app.config['SECRET_KEY'], algorithms=['HS256'])
+            is_admin = decoded_token.get('admin')
+            print(is_admin , decoded_token.get('admin'))
+
+            if is_admin:
+                return func(*args, **kwargs)
+            else:
+                return error_response('Admin access is required.', 401)
+
+        except jwt.ExpiredSignatureError:
+            return error_response('Token has expired', 401)
+        except jwt.InvalidTokenError:
+            return error_response('Invalid token', 401)
     return admin_required_wrapper
 
 def is_admin(user):
@@ -53,15 +62,19 @@ def is_admin(user):
 def jwt_required(func):
     @wraps(func)
     def jwt_required_wrapper(*args, **kwargs):
-        token = None
-        if 'x-access-token' in request.headers:
-            token = request.headers['x-access-token']
-            print(token)
+        token = request.headers.get('Authorization')  # Use 'Authorization' header
         if not token:
-            return message_response('Token is missing', 401)
-        print(app.config['SECRET_KEY'])
-        data = jwt.decode(token, app.config['SECRET_KEY'], algorithms=['HS256'])
-        return func(*args, **kwargs)
+            return error_response('Token is missing', 401)
+
+        try:
+            decoded_token = jwt.decode(token.split()[-1], app.config['SECRET_KEY'], algorithms=['HS256'])
+            return func(*args, **kwargs)
+
+        except jwt.ExpiredSignatureError:
+            return error_response('Token has expired', 401)
+        except jwt.InvalidTokenError:
+            return error_response('Invalid token', 401)
+
     return jwt_required_wrapper
 
 
@@ -113,10 +126,6 @@ def show_all_pokemon():
 
     for pokemon_item in all_pokemon:
         pokemon_item['_id'] = str(pokemon_item['_id'])
-        for ability in pokemon_item['abilities']:
-            ability['_id'] = str(ability['_id'])
-        for moves in pokemon_item['moves']:
-            moves['_id'] = str(moves['_id'])
         # for stats in pokemon_item['stats']:
         #     stats['_id'] = str(stats['_id'])
 
@@ -127,10 +136,6 @@ def show_one_pokemon(id):
     pokemon_item = pokemon.find_one( { '_id' : ObjectId(id) } )
     if pokemon_item is not None:
         pokemon_item['_id'] = str(pokemon_item['_id'])
-        for ability in pokemon_item['abilities']:
-            ability['_id'] = str(ability['_id'])
-        for moves in pokemon_item['moves']:
-            moves['_id'] = str(moves['_id'])
         for stats in pokemon_item['stats']:
             stats['_id'] = str(stats['_id'])
         return make_response( jsonify( pokemon_item ) , 200 )
@@ -149,8 +154,6 @@ def add_new_pokemon():
             'name': request.form['name'],
             'type': types,
             'pokedex_order': request.form['pokedex_order'],
-            'abilities': [],
-            'moves': [],
             'stats': []
         }
 
@@ -239,8 +242,6 @@ def add_new_stat(id):
     )
     new_stats_link = "https://localhost:5000/api/v1.0/pokemon/" + id + "/stats/" + str(new_stats["_id"])
     return make_response(jsonify({'url': new_stats_link}), 201)
-
-
 
 @app.route('/api/v1.0/pokemon/<string:id>/stats/<stat_id>', methods=['PUT'])
 def edit_stat(id, stat_id):
@@ -355,29 +356,30 @@ def login():
     if auth:
         user = users.find_one( { "username" : auth.username } )
         if user is not None:
-            if bcrypt.checkpw(bytes( auth.password, 'UTF-8' ), user["password"] ):
+            stored_password = user.get("password")
+            if bcrypt.checkpw(auth.password.encode('UTF-8'), stored_password):
                 is_staff = user.get('is_staff', False)
-                token = jwt.encode( {
+                token = jwt.encode({
                     'user' : auth.username,
                     'admin' : is_staff,
                     'exp' : datetime.datetime.utcnow() + datetime.timedelta(minutes=30)
                 }, app.config['SECRET_KEY'])
                 print(token)
-                return make_response( jsonify( { 'token' : token } ) , 200)
+                return make_response(jsonify({'token' : token}), 200)
             else:
                 return message_response('Bad Password' , 401)
         else:
             return message_response('Bad Username' , 401)
     return message_response('Authentication Required' , 401)
 
-@app.route('/api/v1.0.logout', methods=['GET'])
+
+@app.route('/api/v1.0/logout', methods=['GET'])
 @jwt_required
 def logout():
     token = request.headers['x-access-token']
     blacklist.insert_one( { 'token' : token })
     return make_response( jsonify( { 'message' : 'Logout Successful' } ) , 200)
 
-    
 #endregion Authentication and Generic Site Routes      
 
 #region User Routes
@@ -416,12 +418,18 @@ def get_all_users():
 
     return jsonify({'users': users_list})
 
+@app.route('/api/v1.0/admin', methods=['GET'])
+@jwt_required
+@admin_required
+def respondAdminTrue():
+    return jsonify({ 'isAdmin' : 'Admin Access Granted'})
+
 
 
 @app.route('/api/v1.0/users', methods=['POST'])
 def create_user():
     if 'username' in request.form and 'email' in request.form and 'password' in request.form:
-        hashed_password = bcrypt.hashpw(request.form['password'].encode('utf-8'), bcrypt.gensalt())
+        hashed_password = bcrypt.hashpw(request.form['password'].encode('UTF-8'), bcrypt.gensalt())
         user_data = {
             'username': request.form['username'],
             'email': request.form['email'],
@@ -574,6 +582,6 @@ def delete_user_team(user_id, team_id):
 #endregion Flask Routes
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=5000)
+    app.run(host='localhost', port=5000, debug=True)
 
 
